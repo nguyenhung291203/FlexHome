@@ -267,16 +267,37 @@
 }
 
 @media (max-width:575.98px) {
-    .sidebar__item {
-        width: 100px;
+    .sidebar__icon i {
+        font-size: 25px;
     }
 
+    .side__list {
+        justify-content: space-between;
+    }
+
+
+    .sidebar__item,
+    .sidebar__item:first-child {
+        width: 96px;
+    }
+
+    .number__item,.number__item:nth-child(4n){
+        margin-right: calc(50% - 60px);
+    }
+    .number__item:nth-child(3n){
+        margin-right: 0;
+    }
     .sidebar__logo {
         display: none;
     }
 
-    .interact__item:first-child {
-        padding-left: 0;
+    .interact {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .interact__item {
+        padding: 0;
     }
 }
 
