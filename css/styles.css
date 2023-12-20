@@ -281,15 +281,23 @@
         width: 96px;
     }
 
-    .number__item,.number__item:nth-child(4n){
-        margin-right: calc(50% - 60px);
+    .sidebar__selection{
+        flex-wrap: wrap;
     }
-    .number__item:nth-child(3n){
-        margin-right: 0;
+
+    .sidebar__left{
+        width: 100%;
+    }
+
+    .sidebar__right{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 50px;
     }
     .sidebar__logo {
         display: none;
-    }
+    } 
+
 
     .interact {
         width: 100%;
